@@ -1,3 +1,6 @@
+#El valor de "a" quedara almacenado en el registro $s0
+#El valor de "z" quedara alamcenado en el registro $s1
+
 addi $s0, $0, 0	     # a = 0
 addi $s1, $0, 1      # z = 1
 addi $s2, $0, 10    # Numero que sera condicion en el while
