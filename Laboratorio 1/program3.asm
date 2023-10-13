@@ -5,8 +5,8 @@
 
 .text
 	main:
-		addi $s0, $0, -10      # Operando 1
-		addi $s1, $0, -5      # Operando 2
+		addi $s0, $0, 7      # Operando 1
+		addi $s1, $0, -8      # Operando 2
 		addi $t0, $0, 2       # Iterador cuando el operando 2 es positivo
 		addi $t2, $s1, 0      # Iterador cuando el operando 2 es negativo
 		jal Operacion         # En operacion se distingue si el operando 2 es cero (multiplicacion por 0), el operando 1 es 1 (multiplicacion por 1)

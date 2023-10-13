@@ -5,7 +5,7 @@
 .text
 	la $s0, arr          # esta instrucción pone la dirección base de arr en $s0
 	la $s1, end          # carga la direccion de la etiqueta end en $s1
-	subu $s1, $s1, $s0   # 
+	subu $s1, $s1, $s0   # realiza la resta sin signo de las direcciones $s0 (inicio arreglo) con $s1 (despues del arreglo), almacena esa diferencia en $s1 (largo arreglo en bytes)
 	srl $s1, $s1, 2      # ahora $s1 = num elementos en arreglo --> arrlen = largo array
 	addi $t0, $0, 0      # $t0 = 0 --> evensum = 0
 	addi $s2, $0, 0      # $s2 = 0 --> i = 0
