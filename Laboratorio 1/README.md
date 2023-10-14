@@ -1,6 +1,6 @@
 # **Laboratorio 1: Instrucciones MIPS y Programación en Lenguaje Ensamblador**
 
-Software utilizado: [MARS - Mips Assembly and Runtime Simulator](https://courses.missouristate.edu/kenvollmar/mars/download.htm "Mips Assembly and Runtime Simulator")
+Software utilizado: [**MARS - Mips Assembly and Runtime Simulator**](https://courses.missouristate.edu/kenvollmar/mars/download.htm "Mips Assembly and Runtime Simulator")
 
 ## **Objetivos de Aprendizaje**
 * Traducir programas escritos en un lenguaje de alto nivel a MIPS.
@@ -56,9 +56,9 @@ Escribe un programa en MIPS que calcule la multiplicación de dos enteros median
 
 ---
 ## **Estado Actividad**
-* [X] [Ejercicio 1](https://github.com/Agustin-Vera/Organizacion_de_Computadores/blob/1921727b898aab06535b0f1ca3186dfa180db20c/Laboratorio%201/program1.asm "Solución propuesta ejercicio 1")
-* [X] [Ejercicio 2](https://github.com/Agustin-Vera/Organizacion_de_Computadores/blob/1921727b898aab06535b0f1ca3186dfa180db20c/Laboratorio%201/program2.asm "Solución propuesta ejercicio 2")
-* [X] [Ejercicio 3](https://github.com/Agustin-Vera/Organizacion_de_Computadores/blob/1921727b898aab06535b0f1ca3186dfa180db20c/Laboratorio%201/program3.asm "Solución propuesta ejercicio 3")
+* [X] [**Ejercicio 1**](https://github.com/Agustin-Vera/Organizacion_de_Computadores/blob/1921727b898aab06535b0f1ca3186dfa180db20c/Laboratorio%201/program1.asm "Solución propuesta ejercicio 1")
+* [X] [**Ejercicio 2**](https://github.com/Agustin-Vera/Organizacion_de_Computadores/blob/1921727b898aab06535b0f1ca3186dfa180db20c/Laboratorio%201/program2.asm "Solución propuesta ejercicio 2")
+* [X] [**Ejercicio 3**](https://github.com/Agustin-Vera/Organizacion_de_Computadores/blob/1921727b898aab06535b0f1ca3186dfa180db20c/Laboratorio%201/program3.asm "Solución propuesta ejercicio 3")
 
 
 ---
