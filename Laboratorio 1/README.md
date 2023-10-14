@@ -40,13 +40,13 @@ for (int i = 0; i < arrlen; i++) {
 ```mips
 # Tu código MIPS debería comenzar con algo así:
 .data
-arr: .word 10 22 15 40
-end:
+    arr: .word 10 22 15 40
+    end:
 .text
-la $s0, arr # esta instrucción pone la dirección base de arr en $s0
-la $s1, end
-subu $s1, $s1, $s0
-srl $s1, $s1, 2 # ahora $s1 = num elementos en arreglo. ¿Cómo?
+    la $s0, arr # esta instrucción pone la dirección base de arr en $s0
+    la $s1, end
+    subu $s1, $s1, $s0
+    srl $s1, $s1, 2 # ahora $s1 = num elementos en arreglo. ¿Cómo?
 ```
 
 
