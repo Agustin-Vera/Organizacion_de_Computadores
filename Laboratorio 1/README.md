@@ -38,7 +38,7 @@ for (int i = 0; i < arrlen; i++) {
 }
 ```
 ```mips
-Tu código MIPS debería comenzar con algo así:
+# Tu código MIPS debería comenzar con algo así:
 .data
 arr: .word 10 22 15 40
 end:
