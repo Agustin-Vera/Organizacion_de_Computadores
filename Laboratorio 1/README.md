@@ -56,9 +56,9 @@ Escribe un programa en MIPS que calcule la multiplicación de dos enteros median
 
 ---
 ## **Estado Actividad**
-* [X] Ejercicio 1
-* [X] Ejercicio 2
-* [X] Ejercicio 3
+* [X] [Ejercicio 1](https://github.com/Agustin-Vera/Organizacion_de_Computadores/blob/1921727b898aab06535b0f1ca3186dfa180db20c/Laboratorio%201/program1.asm "Solución Planteada Ejercicio 1")
+* [X] [Ejercicio 2](https://github.com/Agustin-Vera/Organizacion_de_Computadores/blob/1921727b898aab06535b0f1ca3186dfa180db20c/Laboratorio%201/program2.asm "Solución Planteada Ejercicio 2")
+* [X] [Ejercicio 3](https://github.com/Agustin-Vera/Organizacion_de_Computadores/blob/1921727b898aab06535b0f1ca3186dfa180db20c/Laboratorio%201/program3.asm "Solución Planteada Ejercicio 3")
 
 
 ---
