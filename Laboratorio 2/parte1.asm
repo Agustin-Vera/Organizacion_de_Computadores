@@ -59,7 +59,7 @@
 			la $a0, output
 			syscall
 			# Impresion del numero respectivo a la diferencia entre los enteros
-			li $v0, 1
+			li $v0, 1     # 1 indica a Syscall que se imprimira un entero por consola
 			move $a0, $t0
 			syscall
 			
