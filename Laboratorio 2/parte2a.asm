@@ -1,12 +1,17 @@
 .data
-
+	resultado: .asciiz "El factorial del numero ingresado es: "
 .text
 	main:
-		addi $a0, $0, 6    # $a0 = Numero al cual se le quiere calcular el factorial (Ej: 6)
+		addi $a0, $0, 6    # $a0 = Numero al cual se le quiere calcular el factorial (Ej: 6) --> Cambiar el 6 para ir probando el calculo de factorial a otros numeros
 		jal Factorial      # Salto a subrutina Factorial
-	
-		# Impresion de resultado (Ej: Si $a0 = 6 --> $v1 = 6! --> $v1 = 720
+		
 		move $v1, $v0    # $v1 = $v0 --> $v0 = Retorno de subrutina Factorial
+		
+		# Impresion de mensaje para indicar al usuario el resultado del factorial
+		li $v0, 4      # 4 indica a Syscall que se imprimira un string por consola
+		la $a0, resultado
+		syscall
+		# Impresion de resultado (Ej: Si $a0 = 6 --> $v1 = 6! --> $v1 = 720
 		li $v0, 1        # 1 indica a Syscall que se imprimira un entero por consola
 		move $a0, $v1
 		syscall
@@ -33,10 +38,12 @@
 			addi $t4, $t4, 1   # $t4 = $t4 + 1 --> Aumenta el operando 2
 			j LoopFactorial	   # Salta a LoopFactorial
 		
+		# Calcula el factorial de cero
 		FactorialDeCero:
 			addi $v0, $0, 1    # $v0 = 1 --> El factorial de 0 es igual a 1
 			jr $ra             # Salta a la instruccion posterior al uso de jal Factorial
 		
+		# Fin de subrutina --> recupera la direccion almacenada en el stack
 		FinFactorial:
 			# Recuperar $ra de la pila (stack)
     			lw $ra, 0($sp)     # Cargar $ra de la pila
